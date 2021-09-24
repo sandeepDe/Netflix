@@ -1,0 +1,160 @@
+.home-loading-container {
+    background-color: #131313;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .loader-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    width: 100vw;
+  }
+  
+  .home-container {
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .home-container {
+      display: none;
+    }
+  }
+  
+  .medium-screen-home-container {
+    display: none;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .medium-screen-home-container {
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      background-size: cover;
+    }
+  }
+  
+  .home-movie-details-container {
+    background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(24, 24, 24, 0.546875) 38.26%,
+      #131313 92.82%,
+      #131313 98.68%,
+      #131313 108.61%
+    );
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100vw;
+    padding-left: 10vw;
+    margin-top: 10vh;
+    padding-bottom: 5vh;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-movie-details-container {
+      margin-top: 18vh;
+      padding-left: 8vw;
+      padding-bottom: 8vh;
+    }
+  }
+  
+  .home-movie-heading {
+    font-size: 38px;
+    font-weight: 500;
+    font-family: 'Roboto';
+    color: #ffffff;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-movie-heading {
+      font-size: 48px;
+      font-weight: 600;
+    }
+  }
+  
+  .home-movie-description {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'HK Grotesk';
+    color: #ffffff;
+    height: 63px;
+    width: 296px;
+    margin-top: 0px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .home-movie-description {
+      font-size: 20px;
+      height: 78px;
+      width: 632px;
+      margin-bottom: 22px;
+    }
+  }
+  
+  .home-movie-play-button {
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #171f46;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+    width: 74px;
+  }
+  
+  .home-bottom-container {
+    background-color: #131313;
+    background-size: cover;
+    width: 100vw;
+    margin-top: -2px;
+    padding-bottom: 22px;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .home-bottom-container {
+      padding-bottom: 0px;
+    }
+  }
+  
+  .trending-now-heading {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'HK Grotesk';
+    padding-left: 10vw;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .trending-now-heading {
+      font-size: 32px;
+      padding-left: 8vw;
+    }
+  }
+  
+  .originals-container {
+    margin-bottom: 32px;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .originals-container {
+      margin-bottom: 42px;
+    }
+  }
+  
